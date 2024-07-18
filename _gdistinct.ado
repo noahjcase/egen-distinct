@@ -7,9 +7,10 @@ program define _gdistinct, nclass
     gettoken newvarname   0 : 0
     gettoken eqs  0 : 0    // known to be "="
 
-    syntax varlist [if/] [in], [BY(varlist)]
+    syntax varlist [if] [in], [BY(varlist)]
     marksample touse, novarlist strok
     tempvar t1 t2
+
     if !missing("`by'") {
         egen byte `t1' = tag(`by' `varlist') if `touse'
         bysort `by': egen `type' `t2' = total(`t1') if `touse'
