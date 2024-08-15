@@ -46,7 +46,7 @@
     Note that {bf:N_not_sharon_by_state} will be {help missing} for observations
     where {bf:town} is "Sharon".
 
-{title: Missing Values}
+{title:Missing Values}
 
     There are two places where missing values are relevant to {cmdab:distinct}.
 
