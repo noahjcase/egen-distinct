@@ -64,7 +64,8 @@
     See {help distinct} for a definition of the adjective "distinct" in this
     context.
 
-    A test script for {cmdab:egen distinct} is available at ...
+    A test script for {cmdab:egen distinct} is available at
+    {browse "https://github.com/noahjcase/egen-distinct"}
 
 {title:Author}
 
